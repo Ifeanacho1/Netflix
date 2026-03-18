@@ -4,7 +4,7 @@
 }
 
 header{
-    background-image: url("https://aldianews.com/sites/default/files/articles/619306-bg-full-netflix-grid-v2.desktop.jpg");
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/eb110559-67e9-40ec-8f1c-4a45b9f9c9bb/web/NG-en-20260309-TRIFECTA-perspective_7d3eb0f8-8201-4772-8dbf-d528e2abbe76_large.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -21,11 +21,8 @@ header{
         align-items: center;
         padding-left: 10%;
     
-            .Netflix{
-            font-size: 40px;
-            text-transform: uppercase;
-            color: red;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+            .Logo{
+                width: 35%;
             }
         }
 
@@ -114,8 +111,60 @@ header{
     }
 }
 
+.Trendingsection{
+        width: 90%;
+        height: 10vh;
+        padding-left: 10%;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        background-color: black;
+
+        .Trending{
+            font-size: 25px;
+            color: white;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+        }
+}
+
 main{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-color: black;
+
+    .Imgdiv{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        .War{
+            height: 100%;
+        }
+
+        .One{
+            height: 100%;
+        }
+
+        .Anikulapo{
+            height: 100%;
+        }
+
+        .Fatal{
+            height: 100%;
+        }
+
+        .The{
+            height: 100%;
+        }
+    }   
+
+
+
+
+
+
+    
 }
